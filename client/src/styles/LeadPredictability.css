@@ -1,0 +1,100 @@
+/* LeadPredictability.css */
+.lead-predictability-module .module-tabs {
+  display: flex;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 20px;
+}
+
+.lead-predictability-module .tab {
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: 500;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s;
+}
+
+.lead-predictability-module .tab.active {
+  border-bottom: 2px solid #4a6cf7;
+  color: #4a6cf7;
+}
+
+.lead-predictability-module .tab:hover {
+  background-color: #f5f7fa;
+}
+
+.lead-predictability-module .score-pill {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-weight: 500;
+  font-size: 0.9rem;
+  text-align: center;
+  min-width: 40px;
+}
+
+.lead-predictability-module .btn-sm {
+  padding: 5px 10px;
+  font-size: 0.9rem;
+}
+
+.lead-predictability-module .feature-list {
+  padding-left: 20px;
+  margin-bottom: 15px;
+}
+
+.lead-predictability-module .feature-list li {
+  margin-bottom: 8px;
+}
+
+.lead-predictability-module .placeholder-chart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  padding: 20px;
+  text-align: center;
+  color: #666;
+}
+
+.lead-predictability-module .impact-badge,
+.lead-predictability-module .status-badge {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-weight: 500;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.lead-predictability-module .impact-badge.high {
+  background-color: #ff4d4f;
+  color: white;
+}
+
+.lead-predictability-module .impact-badge.medium {
+  background-color: #faad14;
+  color: white;
+}
+
+.lead-predictability-module .impact-badge.low {
+  background-color: #52c41a;
+  color: white;
+}
+
+.lead-predictability-module .status-badge.active {
+  background-color: #ff4d4f;
+  color: white;
+}
+
+.lead-predictability-module .status-badge.monitoring {
+  background-color: #faad14;
+  color: white;
+}
+
+.lead-predictability-module .status-badge.resolved {
+  background-color: #52c41a;
+  color: white;
+}

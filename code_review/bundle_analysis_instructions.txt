@@ -1,0 +1,2 @@
+// Add this to package.json scripts
+"analyze": "source-map-explorer build/static/js/*.js"

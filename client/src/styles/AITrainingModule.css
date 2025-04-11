@@ -1,0 +1,188 @@
+/* AITrainingModule.css */
+.ai-training-module .module-tabs {
+  display: flex;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 20px;
+}
+
+.ai-training-module .tab {
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: 500;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s;
+}
+
+.ai-training-module .tab.active {
+  border-bottom: 2px solid #4a6cf7;
+  color: #4a6cf7;
+}
+
+.ai-training-module .tab:hover {
+  background-color: #f5f7fa;
+}
+
+.ai-training-module .insights-list {
+  list-style: none;
+  padding: 0;
+}
+
+.ai-training-module .insight-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+}
+
+.ai-training-module .insight-icon {
+  margin-right: 10px;
+  font-size: 1.2rem;
+}
+
+.ai-training-module .comparison-chart {
+  margin-top: 20px;
+}
+
+.ai-training-module .comparison-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.ai-training-module .comparison-label {
+  width: 120px;
+  font-size: 0.9rem;
+}
+
+.ai-training-module .comparison-bar {
+  flex: 1;
+  height: 20px;
+  background-color: #eee;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 0 15px;
+}
+
+.ai-training-module .bar-fill {
+  height: 100%;
+  border-radius: 10px;
+}
+
+.ai-training-module .your-rate {
+  background-color: #4a6cf7;
+}
+
+.ai-training-module .team-avg {
+  background-color: #52c41a;
+}
+
+.ai-training-module .top-performer {
+  background-color: #faad14;
+}
+
+.ai-training-module .comparison-value {
+  width: 50px;
+  text-align: right;
+  font-weight: 500;
+}
+
+.ai-training-module .training-module {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.ai-training-module .training-module:last-child {
+  border-bottom: none;
+}
+
+.ai-training-module .module-info {
+  flex: 1;
+}
+
+.ai-training-module .module-title {
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.ai-training-module .module-priority,
+.ai-training-module .module-completion {
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.ai-training-module .module-progress {
+  width: 200px;
+  margin: 0 20px;
+}
+
+.ai-training-module .progress-bar {
+  height: 8px;
+  background-color: #eee;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+
+.ai-training-module .progress-fill {
+  height: 100%;
+  background-color: #4a6cf7;
+  border-radius: 4px;
+}
+
+.ai-training-module .progress-text {
+  font-size: 0.8rem;
+  text-align: right;
+}
+
+.ai-training-module .coaching-session {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.ai-training-module .coaching-session:last-child {
+  border-bottom: none;
+}
+
+.ai-training-module .session-info {
+  flex: 1;
+}
+
+.ai-training-module .session-title {
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.ai-training-module .session-time {
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.ai-training-module .session-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.ai-training-module .coaching-recommendations {
+  list-style: none;
+  padding: 0;
+}
+
+.ai-training-module .recommendation-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+}
+
+.ai-training-module .recommendation-icon {
+  margin-right: 10px;
+  font-size: 1.2rem;
+}
